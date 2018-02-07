@@ -96,14 +96,14 @@ if(period==6):
     print students6
     print"\n\n\n"
     students6=absent(students6)
-    makeGroups6(students6)#if period 6 prefers 5 groups do: makeGroups5(5,students6)
+    makeGroups6(students6)#if period 6 prefers 5 groups do: makeGroups5(students6)
 elif(period==8):
 
     print"Here is the roster for period 6 if anyone's absent match the spelling the way i spelled it(ex: sarah c)\n\n"
     print students8
     print"\n\n\n"
     students8=absent(students8)
-    makeGroups6(students8)#if period 8 prefers 5 groups do: makeGroups5(5,students6)
+    makeGroups6(students8)#if period 8 prefers 5 groups do: makeGroups5(students8)
 
 print "\n\n6 GROUPS:\n\n"
 print "one: "
