@@ -1,17 +1,18 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <title> Period form</title>
+    <meta charset="utf-8">
+    <title>Group Maker</title>
   </head>
   <body>
-    <form method="GET" action="group.py">
-      Six<input type="radio" name="period" value="six">
+    <form method="GET" id="form" action="group.py">
+      <p>Select Period</p>
+      <input type="radio" id="6" name="period" value="Six" checked>
+      <label for="6">Six</label>
       <br>
-      Eight<input type="radio" name="period" value="eight">
-      Absent (separate by commas)
-      <br>
-      <textarea rows="3" name="absentees" cols="20"></textarea>
-      <br>
-      <input type="submit" name="fred" value="I'm done.">
-
+      <input type="radio" id="8" name="period" value="Eight">
+      <label for="8">Eight</label>
+      <p>Select Any Absentees</p>
     </form>
+    <script src="form.js"></script>
 </html>
